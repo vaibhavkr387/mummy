@@ -1,0 +1,12 @@
+.custom-bg {
+  background: linear-gradient(135deg, #fff0f6, #ffe0e9);
+}
+
+.animated-heart {
+  animation: beat 1s infinite alternate;
+}
+
+@keyframes beat {
+  from { transform: scale(1); color: #d63384; }
+  to { transform: scale(1.1); color: #e60073; }
+}
